@@ -1,0 +1,45 @@
+.spacer{
+    flex: 1 1 auto;
+}
+
+.dashboard{
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); */
+    gap: 20px;
+    padding: 30px;
+}
+
+.card{
+    width: 200px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 15px;
+    /* font-weight: 600; */
+    cursor: pointer; 
+    transition: 0.3s;   
+}
+
+.card mat-icon{
+    margin-bottom: 7px;
+}
+
+.card:hover{
+    background:cornflowerblue;
+    color: white;
+}
+
+.search-container{
+    padding: 12px 24px;
+    width: 300px;
+}
+
+
+
+
+/* .active-card{
+    border: 2px solid navy;
+} */

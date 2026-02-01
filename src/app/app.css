@@ -1,0 +1,178 @@
+
+/* .example-h2{
+  margin-bottom: 10px;
+}
+
+.example-margin{
+  margin: 0,12px;
+
+}
+
+.example-card{
+  margin-bottom: 12px;
+}
+
+.example-section{
+  display: flex;
+  
+  align-items: center;
+  align-content: center;
+  height: 60px;
+}
+
+::ng-deep .mat-mdc-progress-spinner circle {
+
+  width: 100px !important;
+  height: 100px !important;
+  stroke :lch(83.81% 15.82 226.53) !important;
+  }
+ */
+
+ /* .mat-stepper-vertical{
+  margin-top: 10px;
+ }
+
+ .mat-form-field + .mat-form-field{
+    margin-top: 10px;
+ } */
+
+ /* .example-tree-invisible{
+  display: none;
+ }
+
+ .mat-tree-node{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ } */
+
+
+ /* .mat-sort-header-container{
+  align-items: center;
+ } */
+
+
+ table{
+  width: 50%;
+ }
+
+ /* th.mat-sort-header-sorted{
+  color: black;
+  
+ } */
+
+/*  
+ .header-blue .mdc-data-table__header-cell{
+  background-color: #7e99a8 !important;
+  color: black !important;
+ }
+ */
+
+ /* .mat-column-position{
+  border-right: 1px solid ;
+  text-align: center;
+  padding-right: 12px;
+  width: 32px;
+ }
+
+ .mat-column-name{
+  font-size: 25px;
+ }
+
+ .mat-column-weight{
+  font-style: italic;
+ }
+
+ .mat-column-symbol{
+  font-weight: bold;
+  text-align: center;
+  width: 32px;
+ }
+  */
+
+/* .mat-mdc-row .mat-mdc-cell{
+  
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+
+.mat-mdc-row:hover .mat-mdc-cell{
+  border-color: currentColor;
+}
+
+.demo-row-is-clicked{
+  font-weight: bold;
+} */
+
+/* .mat-table{
+  display: flex;
+  /*background: hwb(0 0% 0%);
+}*/
+
+
+/* .breadcrumb{
+  /*display: flex;
+  font-size: 10px;
+  margin-right: 5px;
+  align-items: center;
+  
+}
+
+.yellow-divider{
+  border: 1px solid #FFECB3 ;
+  margin-bottom: 10px;
+  width: 100%;
+  
+} */
+
+
+ 
+
+/* VERTICAL BORDERS FOR EACH COLUMN */
+/* ::ng-deep .custom-table .mat-column-select,
+::ng-deep .custom-table .mat-column-id,
+::ng-deep .custom-table .mat-column-name,
+::ng-deep .custom-table .mat-column-age,
+::ng-deep .custom-table .mat-column-city,
+::ng-deep .custom-table .mat-column-cost {
+  border-right: 2px solid #bdbdbd !important;
+    text-align: center; 
+}
+
+::ng-deep .custom-table .mat-sort-header-container {
+  display: flex !important;
+  justify-content: center !important; 
+  align-items: center !important; 
+  /* text-align: center !important; 
+   width: 100% !important; 
+} */
+
+ /* .btn-navy{
+  background-color: rgba(0, 0, 128, 0.562) !important;
+ }
+
+.yellow-divider{
+border: 1px solid #FFECB3 !important;
+  width: 100%;
+  
+}
+.action-end{
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 128, 0.718) !important;
+
+} */
+
+.yellow-divider{
+  border: 1px solid lightyellow !important;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.dropdown-row{
+  display: flex;
+  padding-right: 5px;
+
+}
+mat-form-field {
+  flex: 1;         /* equal columns */
+}

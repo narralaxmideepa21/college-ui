@@ -1,0 +1,42 @@
+.signup-container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+
+.signup-card{
+    
+width: 320px;
+ padding: 10px;  
+
+}
+
+
+.signup-form{
+
+
+display: flex;
+flex-direction: column;
+gap: 16px;
+
+}
+
+
+
+
+.signup-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.signup-button
+{
+    margin-top: 7px;
+    font-weight: bold;
+    padding: 10px;
+}

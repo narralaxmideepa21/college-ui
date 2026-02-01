@@ -1,0 +1,47 @@
+.mat-table{
+    width: 100%;
+}
+.bordered-table th,
+.bordered-table td{
+        border-right: 1px solid #c8c8c8;
+
+}
+
+.bordered-table .mat-column-id{
+    width: 100px;
+    text-align: center;
+}
+
+.bordered-table .mat-column-name{
+    width: 200px;
+    text-align: center;
+}
+
+.bordered-table .mat-column-hod{
+    width: 200px;
+    text-align: center;
+}
+.bordered-table .mat-column-status{
+    width: 200px;
+    text-align: center;
+}
+
+.bordered-table .mat-column-actions{
+    width: 200px;
+    text-align: center;
+}
+
+.bordered-table .mat-column-actions{
+    border-right: none;
+}
+
+.table-header{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+}
+
+.container{
+    padding: 5px;
+    /* border-radius: 8px; */
+}

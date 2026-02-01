@@ -1,0 +1,35 @@
+.login-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .full-width{
+    width: 100%;
+} */
+
+.login-container h4{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.login-card{
+    width: 350px;
+     padding: 20px; 
+}
+
+.error{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logn-btn{
+    
+    cursor: pointer;
+    
+}

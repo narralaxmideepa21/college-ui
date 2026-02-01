@@ -1,0 +1,26 @@
+<div class="login-container">
+
+   <mat-card class="login-card">
+    <h4 style="color: navy;">CMS Login
+        <mat-icon>school</mat-icon>
+    </h4>
+       <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Username</mat-label>
+          <input matInput [(ngModel)]="username" name="username" #usernameRef="ngModel" required>
+          <mat-error *ngIf="usernameRef.invalid && usernameRef.touched">Username is required</mat-error>
+       </mat-form-field>
+
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Password</mat-label>
+          <input matInput [(ngModel)]="password" name="password" #passwordRef="ngModel" required>
+          <mat-error *ngIf="passwordRef.invalid && passwordRef.touched">Password is required</mat-error>
+        </mat-form-field>
+
+        <button mat-raised-button class="logn-btn"  style="background-color: navy; color: antiquewhite;" type="button" (click)="login()">
+           Login
+        </button>
+
+        <p class="error" *ngIf="error">{{error}}</p>
+   </mat-card>
+
+</div>

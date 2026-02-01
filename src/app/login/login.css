@@ -1,0 +1,98 @@
+/* .login-container{
+    height: 50vh;
+    display: flex;
+    /* justify-content: center; 
+    align-items: center;
+    
+}
+
+
+.login-card{
+    text-align: center;
+    padding: 30px 40px;
+    border-radius: 20px;
+    width: 350px;
+}
+
+
+.login-title{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.mat-form-field{
+    width: 100%;
+} */
+
+/* .form-row{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.form-field{
+    flex: 1;
+   
+}
+
+.login-button {
+  height: 56px; /* match mat-form-field height 
+}
+ */
+
+ 
+.login-container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+
+.login-card{
+    
+width: 300px;
+
+ padding: 10px;  
+
+}
+
+
+.login-form{
+
+
+display: flex;
+flex-direction: column;
+gap: 12px;
+
+}
+
+
+
+
+.login-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.login-button
+{
+    margin-top: 7px;
+    font-weight: bold;
+    padding: 10px;
+}

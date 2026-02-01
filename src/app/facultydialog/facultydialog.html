@@ -1,0 +1,58 @@
+ <h2 mat-dialog-title>
+   Add Faculty
+</h2>
+
+<mat-divider style="background-color: yellow;"></mat-divider>
+<form [formGroup]="form">
+
+
+    <mat-dialog-content class="dialog-form">
+
+        <mat-form-field appearance="outline">
+            <mat-label>Faculty Name</mat-label>
+            <input matInput formControlName="facultyName">
+            <mat-error *ngIf="form.get('facultyName')?.invalid">
+                Faculty Name is required
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Department</mat-label>
+            <mat-select formControlName="departmentId">
+                <mat-option value="cse">CSE</mat-option>
+                <mat-option value="ece">ECE</mat-option>
+                <mat-option value="eee">EEE</mat-option>
+
+            </mat-select>
+        </mat-form-field>
+
+       <mat-form-field appearance="outline">
+         <mat-label>Email</mat-label>
+         <input type="email" matInput formControlName="email">
+
+         <mat-error *ngIf="form.get('email')?.invalid">Enter valid email</mat-error>
+       </mat-form-field>
+
+        <mat-form-field appearance="outline" >
+          <mat-label>Phone</mat-label>
+          <input matInput formControlName="phone" />
+       </mat-form-field>
+
+      <mat-form-field appearance="outline" >
+        <mat-label>Status</mat-label>
+        <mat-select formControlName="status">
+            <mat-option value="Active">Active</mat-option>
+            <mat-option value="Inactive">Inactive</mat-option>
+
+        </mat-select>
+      </mat-form-field>
+
+    </mat-dialog-content>
+
+
+    <mat-dialog-actions align="end">
+        <button mat-button  (click)="cancel()">Cancel</button>
+        <button mat-raised-button type="submit" (click)="save()">Save</button>
+    </mat-dialog-actions>
+
+</form>

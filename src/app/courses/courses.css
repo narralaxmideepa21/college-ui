@@ -1,0 +1,27 @@
+.bordered-table th,
+.bordered-table td{
+        border-right: 1px solid #c8c8c8;
+
+}
+
+.mat-table{
+    width: 100%;
+}
+
+.bordered-table .mat-column-id
+{
+    width: 100px;
+    text-align: center;
+}
+.bordered-table .mat-column-courseName,
+.bordered-table .mat-column-departmentId,
+.bordered-table .mat-column-startDate
+{
+    width: 400px;
+    text-align: center;
+}
+
+.bordered-table .mat-column-status{
+    text-align: center;
+    border-right: none;
+}

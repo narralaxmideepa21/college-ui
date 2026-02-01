@@ -1,0 +1,11 @@
+.one-row{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+}
+.dialog-divider{
+    height: 1px;
+    background-color: rgb(255, 255, 0);
+    margin: 3 0 8px 0;
+}

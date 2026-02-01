@@ -1,0 +1,59 @@
+<div class="signup-container">
+   <div class="signup-card mat-elevation-z24">
+
+        <h2 class="signup-title">Sign Up</h2>
+
+        <form [formGroup]="signupForm" (ngSubmit)="submit()" class="signup-form ">
+
+            <mat-form-field>
+                <mat-label>Full Name</mat-label>
+                <input matInput type="text" formControlName="fullName">
+
+                <mat-error *ngIf="signupForm.get('name')?.hasError('required')">
+                         name is required
+                </mat-error>
+
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Email</mat-label>
+                <input matInput type="email" formControlName="email">
+
+                <mat-error *ngIf="signupForm.get('email')?.hasError('required')">
+                         email is required
+                </mat-error>
+
+            </mat-form-field>
+           
+            <mat-form-field>
+                <mat-label>Password</mat-label>
+                <input matInput type="password" formControlName="password">
+                <mat-error *ngIf="signupForm.get('password')?.hasError('required')">
+
+                         password is required
+                </mat-error>
+
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Confirm Password</mat-label>
+                <input matInput type="password" formControlName="confirmPassword">
+
+                <mat-error *ngIf="signupForm.get('confirmPassword')?.hasError('required')">
+                       confirm  password is required
+                </mat-error>
+
+            </mat-form-field>
+
+            <button mat-raised-button type="submit" class="signup-button">
+                Sign Up
+            </button>
+
+            <p>already have an account?<a routerLink="/login">Login</a></p>
+
+
+
+        </form>
+   </div>
+</div>
+

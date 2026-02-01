@@ -1,0 +1,46 @@
+.mat-table{
+    width: 50%;
+}
+.bordered-table th,
+.bordered-table td{
+        border-right: 1px solid #c8c8c8;
+
+}
+
+.bordered-table .mat-column-id{
+    width: 100px;
+    text-align: center;
+}
+
+.bordered-table .mat-column-facultyName{
+    width: 200px;
+    text-align: center;
+}
+
+.bordered-table .mat-column-departmentId{
+    width: 200px;
+    text-align: center;
+}
+.bordered-table .mat-column-email{
+    width: 200px;
+    text-align: center;
+}
+
+.bordered-table .mat-column-phone{
+    width: 200px;
+    text-align: center;
+}
+
+.bordered-table .mat-column-status{
+    width: 200px;
+    text-align: center;
+}
+
+.bordered-table .mat-column-actions{
+    width: 200px;
+    text-align: center;
+}
+
+.bordered-table .mat-column-actions{
+    border-right: none;
+}
