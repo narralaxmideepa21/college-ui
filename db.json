@@ -26,7 +26,7 @@
     },
     {
       "id": "5",
-      "name": "michel",
+      "name": "chandhu Reddy",
       "email": "michel@gmail.com",
       "department": "cse"
     },
@@ -65,15 +65,21 @@
       "name": "werty",
       "email": "werty@gmail.com",
       "department": "cse"
+    },
+    {
+      "id": "12",
+      "name": "werty",
+      "email": "werty@gmail.com",
+      "department": "eee"
+    },
+    {
+      "id": "13",
+      "name": "asdfg",
+      "email": "aaaaaasdg@gmail.com",
+      "department": "ECE"
     }
   ],
   "departments": [
-    {
-      "id": "cse",
-      "name": "cse",
-      "hod": "Dr. B",
-      "status": "Inactive"
-    },
     {
       "id": "eee",
       "name": "EEE",
@@ -87,15 +93,27 @@
       "status": "Active"
     },
     {
-      "id": "civil",
-      "name": "CIVIL",
-      "hod": "Dr. E",
-      "status": "Inactive"
+      "id": "ece",
+      "name": "ece",
+      "hod": "Dr.B",
+      "status": "Active"
     },
     {
       "id": "cse",
-      "name": "ece",
+      "name": "CSE",
+      "hod": "Dr.B",
+      "status": "Active"
+    },
+    {
+      "id": "cse",
+      "name": "CSE",
       "hod": "Dr.C",
+      "status": "Active"
+    },
+    {
+      "id": "eee",
+      "name": "EEE",
+      "hod": "Dr.D",
       "status": "Active"
     }
   ],
@@ -117,7 +135,7 @@
     {
       "id": "3",
       "courseName": "Powerbi",
-      "departmentId": "cse",
+      "departmentId": "powerbi",
       "startDate": "2026-01-25",
       "status": "Active"
     },
@@ -131,14 +149,14 @@
     {
       "id": "5",
       "courseName": "dotnet",
-      "departmentId": "civil",
+      "departmentId": "dotnet",
       "startDate": "2026-01-28",
       "status": "Active"
     },
     {
       "id": "6",
       "courseName": "database",
-      "departmentId": "cse",
+      "departmentId": "database",
       "startDate": "2026-01-23",
       "status": "Active"
     },
@@ -191,28 +209,44 @@
       "status": "Active"
     },
     {
-      "id": "5",
-      "facultyName": "dr.c",
-      "departmentId": "ece",
-      "email": "narralaxmideep@gmail.com",
-      "phone": "9218672423",
-      "status": "Active"
+      "facultyName": "Dr.Ramesh babu",
+      "departmentId": "cse",
+      "email": "ramesh@gmail.com",
+      "phone": "9848630323",
+      "status": "Active",
+      "id": "5"
     },
     {
       "id": "6",
       "facultyName": "dr.C",
-      "departmentId": "cse",
+      "departmentId": "eee",
       "email": "werty@gmail.com",
       "phone": "9918263456",
       "status": "Active"
     },
     {
-      "id": "7",
-      "facultyName": "dr.lavanya",
+      "facultyName": "Dr.shoba",
       "departmentId": "ece",
-      "email": "narralaxmideep@gmail.com",
-      "phone": "1234566789",
+      "email": "shoba@gmail.com",
+      "phone": "8925616726",
+      "status": "Active",
+      "id": "7"
+    },
+    {
+      "id": "8",
+      "facultyName": "Dr.C",
+      "departmentId": "ece",
+      "email": "werty@gmail.com",
+      "phone": "1234567892",
       "status": "Active"
+    },
+    {
+      "facultyName": "wertyu",
+      "departmentId": "cse",
+      "email": "narralaxmideep@gmail.com",
+      "phone": "1234567892",
+      "status": "Active",
+      "id": "9"
     }
   ]
 }

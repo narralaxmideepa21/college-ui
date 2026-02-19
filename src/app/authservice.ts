@@ -9,7 +9,7 @@ export class Authservice {
    constructor(private router:Router){}
 
 
-
+// this is the service for both login && dashboard
 
 login(username:string,password:string):boolean{
 

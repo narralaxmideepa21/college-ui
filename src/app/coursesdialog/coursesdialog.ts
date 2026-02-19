@@ -42,7 +42,6 @@ export class CoursesDialog implements OnInit {
    }
  
        ngOnInit(): void {
-      
          this.services.getDepartments().subscribe(res=>{
           console.log('departments api:',res);
          });
@@ -68,5 +67,4 @@ export class CoursesDialog implements OnInit {
     cancel(){
       this.dialogRef.close();
     }
-
 }

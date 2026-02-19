@@ -45,3 +45,8 @@
     padding: 5px;
     /* border-radius: 8px; */
 }
+
+  .vertical-divider{
+    border-left: 1px solid #ccc;
+   
+}  

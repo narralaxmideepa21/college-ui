@@ -28,13 +28,17 @@
 }
 
 .card:hover{
-    background:cornflowerblue;
+    background:rgb(16, 55, 126);
     color: white;
 }
 
 .search-container{
-    padding: 12px 24px;
-    width: 300px;
+    padding: 12px 10px;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    width: 180px;
+    background: transparent;
 }
 
 

@@ -20,56 +20,42 @@ import { MatDividerModule } from '@angular/material/divider';
 })
 export class Departmentdialog  {
 
-form!:FormGroup;
 
-constructor(
-  private fb:FormBuilder,
-  private service:DepartmentService,
-  private dialogRef:MatDialogRef<Departmentdialog>,
-  @Inject(MAT_DIALOG_DATA) public data:any
-){
+    form!:FormGroup;
 
-  this.form=this.fb.group({
-     name:['',Validators.required],
-     hod:['',Validators.required],
-     status:['Active',Validators.required]
-  });
+      constructor(
+          private fb:FormBuilder,
+          private service:DepartmentService,
+          private dialogRef:MatDialogRef<Departmentdialog>,
+          @Inject(MAT_DIALOG_DATA) public data:any
+       ){
 
-
-  if(this.data){
-    this.form.patchValue(this.data);
-  }
-
-}
+               this.form=this.fb.group({
+                   name:['',Validators.required],
+                   hod:['',Validators.required],
+                   status:['Active',Validators.required]
+                });
 
 
-  
+             if(this.data){
+                this.form.patchValue(this.data);
+              }
+       }
 
+  submit(){
 
+    if(this.data){
+       this.service.update(this.data.id,this.form.value)
+        .subscribe(() => this.dialogRef.close(true),
+            (err:any) => console.error('API error', err)
+          );
+    }
 
-submit(){
-
-  
-   if(this.data){
-    this.service.update(this.data.id,this.form.value)
-    .subscribe(
-      ()=>this.dialogRef.close(true),
-      (err:any) => console.error('API error', err)
-    );
-   }
-   else{
-    this.service.save(this.form.value)
-    .subscribe(
-      ()=>this.dialogRef.close(true),
-       (err:any) => console.error('API error', err)
-    
-     );
-   }
-
-    
-}
-
-
-
-
+    else{
+       this.service.save(this.form.value)
+        .subscribe(()=>this.dialogRef.close(true),
+             (err:any) => console.error('API error', err)
+         );
+     }
+    }
 }

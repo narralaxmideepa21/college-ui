@@ -1,8 +1,8 @@
 <div class="login-container">
-
-   <mat-card class="login-card">
-    <h4 style="color: navy;">CMS Login
-        <mat-icon>school</mat-icon>
+   <mat-card class="login-card  bg-white">
+      
+    <h4 style="color: rgb(6, 6, 111); font-family: '';">Cms Login
+        <mat-icon style="color: rgb(127, 74, 4);">school</mat-icon>
     </h4>
        <mat-form-field appearance="outline" class="full-width">
           <mat-label>Username</mat-label>
@@ -16,11 +16,10 @@
           <mat-error *ngIf="passwordRef.invalid && passwordRef.touched">Password is required</mat-error>
         </mat-form-field>
 
-        <button mat-raised-button class="logn-btn"  style="background-color: navy; color: antiquewhite;" type="button" (click)="login()">
+        <button mat-raised-button class="logn-btn transition duration-1000"  style="background-color: navy; color: antiquewhite;" type="button" (click)="login()">
            Login
         </button>
 
         <p class="error" *ngIf="error">{{error}}</p>
    </mat-card>
-
 </div>

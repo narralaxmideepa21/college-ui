@@ -39,15 +39,14 @@ submit(){
       alert('passwords doesnot match');
       return;
     }
-//create user object
-    const user = {
-    fullName: this.signupForm.value.fullName,
-    email: this.signupForm.value.email,
-    password: this.signupForm.value.password
-  };
+           //create user object
+           const user = {
+                 fullName: this.signupForm.value.fullName,
+                 email: this.signupForm.value.email,
+                 password: this.signupForm.value.password
+              };
 
-       this.loginService.register(user).subscribe({
-
+         this.loginService.register(user).subscribe({
            next:(res:any)=>{
             console.log('signup successful',res);
             alert('signup successful!');
@@ -58,7 +57,6 @@ submit(){
             alert('signup failed');
            },
     
-
         });
   }
   else{

@@ -34,30 +34,27 @@ constructor(
          department:['']
        });
 
-       if(data){
-         this.isEdit=true;
-        this.form.patchValue(data);
+        if(data){
+           this.isEdit=true;
+           this.form.patchValue(data);
         }
   }
 
 save(){
-  if(this.isEdit){
-      //update student
-    this.service.update(this.form.value.id,this.form.value).subscribe(()=>{
-      this.dialogRef.close(true);//close the dilog and refresh table
-    });
-  }
-  else{
-    // add new student
-    this.service.add(this.form.value).subscribe(()=>{
-      this.dialogRef.close(true);//notify parent dialog refresh table
-    });
-  }
+    if(this.isEdit){
+     
+       this.service.update(this.form.value.id,this.form.value).subscribe(()=>{
+          this.dialogRef.close(true);
+        });
+    }
+    else{
+    
+        this.service.add(this.form.value).subscribe(()=>{
+          this.dialogRef.close(true);
+        });
+    }
 }
-
-//caled when cancel btn is clicked
-close(){
-  this.dialogRef.close();//no value parent will not load
-}
-
+     close(){
+        this.dialogRef.close();
+     }
 }

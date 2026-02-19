@@ -22,11 +22,11 @@ export class Dashboard {
 
   constructor(public auth:Authservice,private router:Router){}
 
-   cards = [{name:'Students',icon:'school',route:'/students'},
-          {name:'Departments',icon:'account_tree',route:'/departments'},
-          {name:'Courses',icon:'menu_book',route:'/courses'},
-          {name:'Faculty',icon:'groups',route:'/faculty'},
-          ];
+   cards =  [{name:'Students',icon:'school',route:'/students'},
+             {name:'Departments',icon:'account_tree',route:'/departments'},
+             {name:'Courses',icon:'menu_book',route:'/courses'},
+             {name:'Faculty',icon:'groups',route:'/faculty'},
+            ];
 
  filteredCards(){
        return this.cards.filter(card=>{

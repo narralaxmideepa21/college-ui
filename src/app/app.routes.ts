@@ -16,7 +16,7 @@ export const routes: Routes = [
     //  { path: 'login', component: LoginComponent },
     // { path: 'signup', component: SignupComponent },
       // { path: '', component: CmsCardComponent}
-      { path: 'login', component:Logincms},
+      { path: 'login', component:Logincms },
       
       { path: 'dashboard', component: Dashboard, canActivate: [Authguard] },
 

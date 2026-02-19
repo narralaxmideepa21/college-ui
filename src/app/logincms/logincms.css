@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+     
 }
 
 /* .full-width{
@@ -14,6 +14,7 @@
 .login-container h4{
     margin-bottom: 20px;
     text-align: center;
+    
 }
 
 
@@ -23,13 +24,8 @@
 }
 
 .error{
-    color: red;
+    color: rgb(237, 21, 21);
     text-align: center;
     margin-top: 10px;
 }
 
-.logn-btn{
-    
-    cursor: pointer;
-    
-}

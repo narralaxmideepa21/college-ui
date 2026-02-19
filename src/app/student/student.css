@@ -23,8 +23,6 @@
 .bordered-table .mat-column-id{
     width: 10px;
     text-align: center;
-    
-
 }
 
 .bordered-table .mat-column-name,
@@ -46,20 +44,18 @@
   box-shadow: none !important; 
 } 
 
-::ng-deep th.mat-header-cell {
+ ::ng-deep th.mat-header-cell {
   text-align: center;
 }
 
 ::ng-deep .mat-sort-header-container {
   justify-content: center !important;
-}
+} 
 
 
 .mat-mdc-table{
     border-bottom: 1px solid #d0d0d0;
 }
 
-.table-card{
-    padding: 12px;
-    margin: 12px;
-}
+
+

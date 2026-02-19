@@ -6,10 +6,11 @@ import { Departmentdialog } from '../departmentdialog/departmentdialog';
 import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { MatDividerModule } from '@angular/material/divider';
 
 @Component({
   selector: 'app-department',
-  imports: [CommonModule,MatButtonModule,MatIconModule,MatTableModule,MatDialogModule],
+  imports: [CommonModule,MatButtonModule,MatIconModule,MatTableModule,MatDialogModule,MatDividerModule],
   standalone:true,
   templateUrl: './department.html',
   styleUrl: './department.css',
@@ -18,7 +19,7 @@ export class Department implements OnInit{
 
 
      displayedColumns:string[]=['id','name','hod','status','actions'];
-       dataSource = new MatTableDataSource<any>();
+     dataSource = new MatTableDataSource<any>();
 
 
        constructor(private service:DepartmentService,private dialog:MatDialog){}
@@ -32,8 +33,6 @@ export class Department implements OnInit{
         console.log('departments:',result);
         this.dataSource.data=result;
       });
-      
-    
     }
 
 
@@ -56,17 +55,7 @@ export class Department implements OnInit{
     delete(id:number){
       
       this.service.delete(id).subscribe(()=>{
-        this.loadDepartments();
+        this.dataSource.data = this.dataSource.data.filter(d => d.id!==id);
       });
     }
-
-
-
-
-
-
-
-
-
-
 }

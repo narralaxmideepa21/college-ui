@@ -11,13 +11,13 @@ constructor(private auth:Authservice,private router:Router){}
 
 
  canActivate():boolean {
-  const loggedIn = this.auth.isLoggedIn();
-  console.log('guard checked:',loggedIn);
+       const loggedIn = this.auth.isLoggedIn();
+        console.log('guard checked:',loggedIn);
 
        if(loggedIn){
          return true;
        }
          this.router.navigate(['/login']);
          return false; 
-   }
+  }
 }

@@ -44,3 +44,7 @@
 .bordered-table .mat-column-actions{
     border-right: none;
 }
+
+.vertical-divider{
+    border-left: 1px solid #999;
+}

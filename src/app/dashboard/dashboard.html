@@ -1,24 +1,15 @@
-<mat-toolbar style="background-color: rgb(215, 215, 69);">
-    <span style="color: darkblue;">College Management System Dashboard</span>
+<mat-toolbar style="background-color: rgb(204, 204, 17); ">
+    <span style="color: rgb(8, 8, 148);">College Management System Dashboard <mat-icon style="color: rgb(165, 42, 63);">school</mat-icon></span>
     <span class="spacer"></span>
     <button mat-raised-button style="background-color: navy; color: white;"     (click)="auth.logout()">Logout</button>
 </mat-toolbar>
 
-
-<div class="search-container">
-   <mat-form-field>
-      <!-- <mat-label>Search Modules</mat-label> -->
-      <input matInput [(ngModel)]="searchText" placeholder="Students, Departments...">
-      <mat-icon matPrefix>search</mat-icon>
-   </mat-form-field>
-</div>
-
-
-<div class="dashboard">
-
+<input matInput   [(ngModel)]="searchText"  class="search-container" placeholder="students,departments...">
+      
+<div class="dashboard ">
   <mat-card class="card" *ngFor="let card of filteredCards()" [routerLink]="card.route" >
-     <mat-icon>{{card.icon}}</mat-icon>
+     <mat-icon style="color: rgba(179, 9, 9, 0.867);">{{card.icon}}</mat-icon>
      <span>{{card.name}}</span>
   </mat-card>
-  
 </div>
+
