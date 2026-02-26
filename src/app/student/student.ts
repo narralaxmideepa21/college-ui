@@ -48,7 +48,7 @@ ngOnInit(): void {
 
 openDialog(student?:any){
    const dialogRef= this.dialog.open(StudentdialogComponent,{
-      width:'800px',
+      width:'900px',
       data:student,
    });
 
@@ -57,7 +57,6 @@ openDialog(student?:any){
         this.load();
      }
   });
-  
 }
 
 

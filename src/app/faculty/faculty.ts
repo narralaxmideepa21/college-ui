@@ -37,7 +37,7 @@ loadFaculty(){
 
 openDialog(data?:any){
   const dialogRef= this.dialog.open(Facultydialog,{
-    width:'400px',
+    width:'1000px',
     data
   });
 

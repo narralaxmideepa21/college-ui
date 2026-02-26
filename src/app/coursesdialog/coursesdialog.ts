@@ -11,10 +11,11 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule, provideNativeDateAdapter } from '@angular/material/core';
 import { DepartmentService } from '../department';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-coursesdialog',
-  imports: [CommonModule,MatFormFieldModule,MatInputModule,ReactiveFormsModule,MatDialogModule,MatSelectModule,MatButtonModule,MatDatepickerModule,MatDividerModule],
+  imports: [CommonModule,MatFormFieldModule,MatInputModule,ReactiveFormsModule,MatDialogModule,MatSelectModule,MatButtonModule,MatDatepickerModule,MatDividerModule,MatIconModule],
   standalone:true,
   templateUrl: './coursesdialog.html',
   styleUrl: './coursesdialog.css',

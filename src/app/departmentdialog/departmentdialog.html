@@ -1,5 +1,6 @@
 <h2 mat-dialog-title style="color: navy;">
     {{data ? 'Edit Department' : 'Add Department'}}
+    <mat-icon>account_tree</mat-icon>
 </h2>
 
 <mat-divider style=" margin-bottom: 14px; background-color: rgb(245, 245, 9);"></mat-divider>
@@ -7,17 +8,17 @@
 <form [formGroup]="form" (ngSubmit)="submit()">
 
   <div class="one-row">
-        <mat-form-field appearance="outline">
+        <mat-form-field >
             <mat-label> Name</mat-label>
             <input matInput formControlName="name">
         </mat-form-field>
 
-        <mat-form-field appearance="outline">
+        <mat-form-field >
             <mat-label>HOD</mat-label>
             <input matInput formControlName="hod">
         </mat-form-field>
 
-        <mat-form-field appearance="outline">
+        <mat-form-field >
             <mat-label>Status</mat-label>            
             <mat-select formControlName="status">
                 <mat-option value="Active">Active</mat-option>
@@ -28,8 +29,8 @@
   </div>
 
       <mat-dialog-actions align="end">
-        <button mat-button mat-dialog-close>Cancel</button>
-        <button mat-raised-button  type="submit"   style="background-color: navy; color: white;">
+        <button mat-raised-button mat-dialog-close style="border-radius: 0 !important;">Cancel</button>
+        <button mat-raised-button  type="submit"   style="background-color: yellow; border-radius: 0 !important;">
             {{data ? 'Update' : 'Save'}}
         </button>
     </mat-dialog-actions>

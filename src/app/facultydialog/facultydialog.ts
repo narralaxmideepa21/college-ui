@@ -8,11 +8,12 @@ import { MatSelectModule } from '@angular/material/select';
 import { FacultyServices } from '../faculty';
 import { MatInputModule } from '@angular/material/input';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-facultydialog',
   standalone:true,
-  imports: [CommonModule,ReactiveFormsModule,MatFormFieldModule,MatDialogModule,MatButtonModule,MatSelectModule,MatInputModule,MatDividerModule],
+  imports: [CommonModule,ReactiveFormsModule,MatFormFieldModule,MatDialogModule,MatButtonModule,MatSelectModule,MatInputModule,MatDividerModule,MatIconModule],
   templateUrl: './facultydialog.html',
   styleUrl: './facultydialog.css',
 })

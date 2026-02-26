@@ -39,7 +39,7 @@ export class Courses implements OnInit{
 
    openDialog(data?:any){
     const dialogRef = this.dialog.open(CoursesDialog,{
-      width:'400px',
+      width:'900px',
       data
     });
 

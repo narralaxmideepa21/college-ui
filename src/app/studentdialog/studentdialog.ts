@@ -8,10 +8,11 @@ import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-studentdialog',
-  imports: [CommonModule,MatFormFieldModule,MatInputModule,ReactiveFormsModule,MatDialogModule,MatButtonModule,MatCardModule,MatDividerModule],
+  imports: [CommonModule,MatFormFieldModule,MatInputModule,ReactiveFormsModule,MatDialogModule,MatButtonModule,MatCardModule,MatDividerModule,MatIconModule],
   standalone:true,
   templateUrl: './studentdialog.html',
   styleUrl: './studentdialog.css',

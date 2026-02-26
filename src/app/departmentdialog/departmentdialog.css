@@ -9,3 +9,6 @@
     background-color: rgb(255, 255, 0);
     margin: 3 0 8px 0;
 }
+::ng-deep .mat-mdc-dialog-container .mdc-dialog__surface{
+    border-radius: 0 !important;
+}

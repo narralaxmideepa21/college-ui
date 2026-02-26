@@ -1,10 +1,9 @@
-.dialog-form{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    width: 100%;
-}
 
-.mat-form-field {
-  width: 100%;
+
+
+::ng-deep .mat-mdc-dialog-container .mdc-dialog__surface{
+    border-radius: 0 !important;
+}
+mat-form-field{
+  margin-right: 5px;
 }

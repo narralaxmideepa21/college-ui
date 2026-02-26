@@ -2,8 +2,8 @@
   "students": [
     {
       "id": "1",
-      "name": "jhon",
-      "email": "jhon@gmail.com",
+      "name": "jhony",
+      "email": "jhony@gmail.com",
       "department": "ece"
     },
     {
@@ -27,7 +27,7 @@
     {
       "id": "5",
       "name": "chandhu Reddy",
-      "email": "michel@gmail.com",
+      "email": "chandhu@gmail.com",
       "department": "cse"
     },
     {
@@ -45,13 +45,13 @@
     {
       "id": "8",
       "name": "deepa reddy",
-      "email": "narralaxmideepa@gmail.com",
-      "department": "eee"
+      "email": "deepa@gmail.com",
+      "department": "cse"
     },
     {
       "id": "9",
       "name": "wwwwwwwwwww",
-      "email": "narralaxmideep21@gmail.com",
+      "email": "reddy21@gmail.com",
       "department": "ece"
     },
     {
@@ -77,15 +77,27 @@
       "name": "asdfg",
       "email": "aaaaaasdg@gmail.com",
       "department": "ECE"
+    },
+    {
+      "id": "14",
+      "name": "deepa reddy",
+      "email": "deepa@gmail.com",
+      "department": "ece"
+    },
+    {
+      "id": "",
+      "name": "",
+      "email": "",
+      "department": ""
+    },
+    {
+      "id": null,
+      "name": "michel",
+      "email": "michel@gmail.com",
+      "department": "cse"
     }
   ],
   "departments": [
-    {
-      "id": "eee",
-      "name": "EEE",
-      "hod": "Dr. C",
-      "status": "Active"
-    },
     {
       "id": "mech",
       "name": "MECH",
@@ -113,7 +125,7 @@
     {
       "id": "eee",
       "name": "EEE",
-      "hod": "Dr.D",
+      "hod": "Dr.B",
       "status": "Active"
     }
   ],
@@ -163,15 +175,22 @@
     {
       "id": "7",
       "courseName": "java",
-      "departmentId": "eee",
+      "departmentId": "java",
       "startDate": "2026-01-30",
       "status": "Active"
     },
     {
       "id": "8",
       "courseName": "angular",
-      "departmentId": "eee",
+      "departmentId": "angular",
       "startDate": "2026-01-20",
+      "status": "Active"
+    },
+    {
+      "id": "9",
+      "courseName": "angular",
+      "departmentId": "civil",
+      "startDate": "2026-02-23",
       "status": "Active"
     }
   ],
@@ -185,20 +204,20 @@
       "status": "Active"
     },
     {
-      "facultyName": "wedf",
-      "departmentId": "eee",
-      "email": "wefg@gmail.com",
-      "phone": "6301528146",
+      "facultyName": "ramu",
+      "departmentId": "ece",
+      "email": "ramu@gmail.com",
+      "phone": "12345678965",
       "status": "Active",
       "id": "2"
     },
     {
-      "id": "3",
       "facultyName": "werty",
       "departmentId": "cse",
-      "email": "narralaxmideep21@gmail.com",
-      "phone": "1234567892",
-      "status": "Active"
+      "email": "werty@gmail.com",
+      "phone": "9962812445",
+      "status": "Active",
+      "id": "3"
     },
     {
       "id": "4",
@@ -217,12 +236,12 @@
       "id": "5"
     },
     {
-      "id": "6",
-      "facultyName": "dr.C",
-      "departmentId": "eee",
+      "facultyName": "Dr.C",
+      "departmentId": "ece",
       "email": "werty@gmail.com",
-      "phone": "9918263456",
-      "status": "Active"
+      "phone": "9281168292",
+      "status": "Active",
+      "id": "6"
     },
     {
       "facultyName": "Dr.shoba",
@@ -241,12 +260,20 @@
       "status": "Active"
     },
     {
-      "facultyName": "wertyu",
+      "facultyName": "sindhu",
       "departmentId": "cse",
-      "email": "narralaxmideep@gmail.com",
-      "phone": "1234567892",
+      "email": "sindhu@gmail.com",
+      "phone": "8812579879",
       "status": "Active",
       "id": "9"
+    },
+    {
+      "id": "10",
+      "facultyName": "deepa reddy",
+      "departmentId": "cse",
+      "email": "narralaxmideep@gmail.com",
+      "phone": "1234567893",
+      "status": "Active"
     }
   ]
 }

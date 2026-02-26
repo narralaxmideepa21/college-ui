@@ -10,10 +10,11 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from '@angular/material/button';
 import { Data } from '@angular/router';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-departmentdialog',
-  imports: [CommonModule,MatFormFieldModule,MatInputModule,ReactiveFormsModule,MatSelectModule,MatDialogModule,MatButtonModule,MatDividerModule],
+  imports: [CommonModule,MatFormFieldModule,MatInputModule,ReactiveFormsModule,MatSelectModule,MatDialogModule,MatButtonModule,MatDividerModule,MatIconModule],
   standalone:true,
   templateUrl: './departmentdialog.html',
   styleUrl: './departmentdialog.css',

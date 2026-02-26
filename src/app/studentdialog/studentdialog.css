@@ -1,6 +1,7 @@
-.dialog-form{
-    display: flex;
-    flex-direction: row;
-    
-    gap: 4px;
+
+mat-form-field{
+    margin-right: 5px;
+}
+ ::ng-deep .mat-mdc-dialog-container .mdc-dialog__surface{
+    border-radius: 0 !important;
 }

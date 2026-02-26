@@ -9,6 +9,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
+import { O } from '@angular/cdk/keycodes';
 
 @Component({
   selector: 'app-dashboard',
@@ -20,7 +21,7 @@ import { FormsModule } from '@angular/forms';
 export class Dashboard {
   searchText:string='';
 
-  constructor(public auth:Authservice,private router:Router){}
+  constructor(public auth:Authservice){}
 
    cards =  [{name:'Students',icon:'school',route:'/students'},
              {name:'Departments',icon:'account_tree',route:'/departments'},

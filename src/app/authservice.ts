@@ -32,8 +32,4 @@ logout(){
   this.router.navigate(['/login']);
 }
 
-
-
-
-
 }
